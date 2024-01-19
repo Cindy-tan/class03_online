@@ -1,0 +1,8 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3rem;
+  min-height: 20vh;
+}
+

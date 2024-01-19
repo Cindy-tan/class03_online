@@ -1,0 +1,95 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3rem;
+  min-height: 20vh;
+  margin-bottom: 5%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 7px 80px;
+  border-style: solid;
+  border-color: var(--gray-border);
+  background-color: var(--white-button);
+}
+
+.appleSignUp {
+  font-weight: bold;
+}
+
+.signIn {
+  font-weight: bold;
+  color: var(--blue);
+  padding: 3px 50px;
+}
+
+.h1 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 70px;
+  padding-right: 60%;
+  margin: auto;
+
+}
+
+.h2 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+
+.twitterLogo {
+  display: flex;
+  align-content: center;
+  padding-right: 10%;
+  padding-top: 0%;
+  margin-bottom: 20%;
+}
+
+.twitterLogo {
+  width: 50px;
+  height: 50px;
+}
+
+.or {
+  font-family:sans-serif;
+  padding-left: 37%;
+  padding-right: 63%;
+  padding: auto;
+}
+
+
+
+.terms {
+  font-family:sans-serif;
+  font-size: 12px;
+
+}
+
+p.terms a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.h3 {
+  font-family:sans-serif;
+}
+
+
+@media (min-width: 414px) and (max-width: 896px) {
+  .twitterLogo {
+    width: 50px;
+    height: 50px;
+    margin-right: 0%;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  .twitterLogo {
+    width: 250px;
+    height: 150px;
+    margin-right: 15%;
+  }
+}
